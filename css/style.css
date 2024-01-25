@@ -1,0 +1,220 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+header nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    position: relative;
+    height: 50px;
+    background-color: #212121;
+}
+.menu {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 70px;
+    margin: 0;
+    list-style-type: none;
+}
+.menu_link {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px;
+}
+.menu_item {
+    border-right: 2px dotted;
+    padding-right: 28px black;
+}
+.sub_header {
+    position: absolute;
+    width: 100%;
+    display: block;
+    background-color: rgba(0, 0, 0, .6);
+    height: 87px;
+    
+}
+.logo_img {
+    display: block;
+    margin-top: 19px;
+    max-width: 100%;
+
+}
+.logo_descr {
+    margin-top: 5px;
+    color: #FFF;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 100;
+}
+.call_text {
+    display: block;
+    margin-top: 19px;
+    text-align: right;
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+}
+.call_tel {
+    
+    display: block;
+    text-align: right;
+    color: #FFF;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.order_call {
+    display: block;
+    margin-top: 22px;
+    width: 172px;
+    height: 46px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    border:none;
+    border-radius: 4px;
+
+    color: #FFF;
+    text-align: center;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.promo {
+    padding: 160px 0 185px;
+    min-height: 799px;
+    background: url('../img/BG/uber_bg.jpg')center center/cover no-repeat;
+}
+.promo .header {
+    color: #FFF;
+    text-align: center;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.promo .promo_header {
+    text-align: center;
+    margin-top: 8px;
+    color: #FFF;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.promo_descr {
+    color: #FFF;
+    margin: 0;
+    margin-top: 16px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.descr_btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 116px;
+    width: 259px;
+    height: 63px;
+    border-radius: 4px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: 0px -4px 0px 0px rgba(0, 0, 0, 0.12) inset;
+    border:none;
+    color: #FFF;
+
+    text-align: center;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+
+}
+.quation {
+    
+    padding:20px 0 67px 0 ;
+    min-height: 800px;
+
+}
+.fake_btn {
+    margin: 0 auto;
+    
+    display: block;
+    width: 115px;
+    height: 27px;
+    background-color:#000;
+}
+.fake_btn_descr {
+    margin:0 auto;
+    line-height:2.5; 
+    color: #FFF;
+    text-align: center;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.at_cool {
+    display: block;
+    color: #222;
+    margin-top: 33px;
+    text-align: center;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.the_cool_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    
+}
+
+.cool_round  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 25px;
+    width: 113px;
+    height: 113px;
+    background-color: #1eacc7;
+    border-radius: 100%;
+}
+.icon_head {
+    width: 343px;
+   
+}
+.icon_descr{
+    display: inline;
+    text-align: center;
+    color: #1EACC7;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+}
+.icon_text {
+    display:flex;
+    color: #202020;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 21px;
+}
